@@ -25,15 +25,24 @@ AI Validation	Guardrails-AI
 📂 Project Structure
 sales_assistant/
 │
+
 ├── .env                        # API keys and environment variables
+
 │
+
 ├── api.py                      # Handles API calls and chatbot initialization
+
 ├── assist.py                   # Catalog statistics & helper functions
+
 ├── fast_api.py                 # Backend server with FastAPI
+
 ├── frontend.py                 # Streamlit UI for the chatbot
+
 │
 ├── product_catalog.pdf         # General product catalog
+
 ├── refrigerator_catalog.pdf    # Refrigerator-specific data
+
 │
 ├── req.txt                     # Required dependencies
 └── __pycache__/                # Compiled cache (auto-generated)
